@@ -1,0 +1,93 @@
+body {
+	background-color: #000000;
+	overflow: hidden;
+}
+
+.fundo{
+	position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.fundo .fundo-img{
+	height: 100vh;
+}
+.fundo::after{
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+	background: linear-gradient(90deg, #040203 0%, rgba(0, 0, 0, 0.85) 49%, #040203 100%);
+}
+
+.conteudo{
+	padding: 250px 0 0 0;
+}
+
+.cabecalho{
+    margin-top: 30px;
+    width: 100vw;
+    height: 50px;
+}
+
+.cabecalho .titulo{
+    margin: 0 auto;
+	padding: 225px 0;
+    font-family: 'Poppins';
+    color: #e6e6e6;
+    transition: 0.5s;
+    width: 200px;
+    height: 50px;
+   
+}
+.titulo:hover{
+    color: #4097dd;
+    cursor: default;
+    
+}
+.calculator {
+	margin: 0 auto;
+	width: 300px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.display {
+	padding: 10px;
+	text-align: right;
+}
+
+.display input {
+	width: 100%;
+	height: 40px;
+	border: none;
+	font-size: 24px;
+}
+
+.keypad {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5px;
+	padding: 10px;
+}
+
+button {
+	background-color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 24px;
+	padding: 10px;
+	cursor: pointer;
+    
+}
+
+button:hover {
+	background-color: #e6e6e6;
+}
+
