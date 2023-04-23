@@ -1,0 +1,25 @@
+@media (max-width: 1200px){
+    body{
+        overflow: visible;
+    }
+}
+@media (max-width: 992px){
+    body{
+        overflow: visible;
+    }
+}
+@media (max-width: 768px){
+    body{
+        overflow: visible;
+    }
+}
+@media (max-width: 576px){
+    body{
+        overflow: visible;
+    }
+}
+@media (max-width: 375px){
+    body{
+        overflow: visible;
+    }
+}
